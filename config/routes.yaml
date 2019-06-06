@@ -1,3 +1,14 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\IndexController:index
+
+school:
+    path: /school
+    controller: App\Controller\IndexController:school
+
+coures:
+    path: /course
+    controller: App\Controller\IndexController:course

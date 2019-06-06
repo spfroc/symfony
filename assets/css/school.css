@@ -1,0 +1,90 @@
+.addmeg p{
+    font-size:22px;
+    margin:2% 0 0 10%;
+}
+.addmeg p span{
+    font-size:28px;
+}
+.tianjia{
+    width:836px;
+    height:846px;
+    background:#fff;
+    border-radius:30px;
+    margin:20px auto 0;
+}
+.fanhui{
+    display:inline-block;
+    width:48px;
+    height:48px;
+    line-height:48px;
+    text-align:center;
+    border-radius:50%;
+    background:#e9e9e9;
+    font-size:30px;
+    text-decoration:none;
+    color:#aaa;
+    margin:20px 81% 12px 30px;
+}
+.tijiao{
+    width:48px;
+    height:48px;
+    line-height:48px;
+    text-align:center;
+    border-radius:50%;
+    background:#ec9f37;
+    font-size:28px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input{
+    -moz-appearance:textfield;
+    outline:none; border:0;
+}
+
+.one{
+    width:735px;
+    height:64px;
+    border-top:2px solid #e6e6e6;
+    border-bottom:2px solid #e6e6e6;
+    margin:0 auto;
+    line-height:64px;
+}
+.one input{
+    width:300px;
+    height:62px;
+}
+.two{
+    width:735px;
+    border-bottom:2px solid #e6e6e6;
+    margin:0 auto;
+    height:235px;
+}
+.two .fengmian{
+    width:315px;
+    height:154px;
+    border:2px solid #ebebeb;
+    margin-top:20px;
+    border-radius:10px;
+    overflow:hidden;
+}
+.three{
+    width:735px;
+    border-bottom:2px solid #e6e6e6;
+    margin:0 auto;
+    height:376px;
+}
+.three input{
+    width:300px;
+}
+.three .address{
+    width:498px;
+    height:292px;
+    border:1px solid #ebebeb;
+    margin-top:20px;
+    border-radius:10px;
+}

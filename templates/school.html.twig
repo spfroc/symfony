@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    {# 'app' must match the first argument to addEntry() in webpack.config.js #}
+    {{ encore_entry_link_tags('school') }}
+
+    {#        Renders a link tag (if your module requires any CSS)#}
+    {#        <link rel="stylesheet" href="/build/app.css">#}
+{% endblock %}
+{% block body %}
+    <div class="text-center">
+        <div class="jumbotron text-center">
+            <school></school>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('school') }}
+
+    {#    <script src="/build/runtime.js"></script>#}
+    {#    <script src="/build/app.js"></script>#}
+{% endblock %}
